@@ -30,4 +30,4 @@ These days the graphics work happens on my own time 🌙. That's most of what's 
 
 🌐 **Networking & backend** — REST, gRPC, Alamofire, AWS Amplify, Firebase
 
-📧 doneliezerbaize@gmail.com · 💼 [linkedin](https://linkedin.com/in/doneliezer-baize/)
+🌐 [doneliezer.com](https://doneliezer.com) · 📧 doneliezerbaize@gmail.com · 💼 [linkedin](https://linkedin.com/in/doneliezer-baize/)
