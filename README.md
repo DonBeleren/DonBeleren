@@ -10,7 +10,7 @@ These days the graphics work happens on my own time 🌙. That's most of what's 
 
 ## projects
 
-🏢 **[Edifice](https://github.com/DonBeleren/edifice)** — write a script, get a 3D building. C++ / Qt / OpenGL, with a Flex/Bison grammar driving split / merge / group / texture ops on a live `Building` model. The DSL has its share of footguns (a color value without a decimal point silently kills the rest of the parse) which I keep meaning to fix and never do.
+🏢 **[Edifice](https://github.com/DonBeleren/edifice)** — write a script, get a 3D building. C++ / Qt 5 / OpenGL 4.1, with a Flex/Bison grammar feeding a shape-grammar engine on top of a live `Building` model, plus an in-app editor that re-parses as you type and a procedural texture catalog. The auto-loaded `skyline.txt` builds two rows of five mixed-style towers along a street; `default.txt` is the original showpiece, a multi-tier setback tower at roughly 70k surface operations.
 
 🪟 **[split-grammar-2d](https://github.com/DonBeleren/split-grammar-2d)** — the 2D version that came before Edifice. Hand-rolled recursive descent parser, fixed 3×3 grid, ~1,600 lines. Edifice is the better one. This is where I figured out what I actually wanted.
 
@@ -18,7 +18,7 @@ These days the graphics work happens on my own time 🌙. That's most of what's 
 
 🧠 **[vtk-volume-rendering](https://github.com/DonBeleren/vtk-volume-rendering)** — direct volume rendering of a CT head scan and a turbulent jet flame. The head transfer function pulls three tissue layers out of one scalar field — skin around 550, muscle around 1100, skull around 1450. Raise opacity on one range, that layer pops out. Tuning the transfer function is most of the project.
 
-☄️ **[asteroid-rendering](https://github.com/DonBeleren/asteroid-rendering)** — VTK rendering of LANL's deepwater asteroid impact ensemble. Five PyQt5 viewers for tuning transfer functions on each scalar (water, asteroid, temperature, pressure, isosurface), plus a batch renderer that walks a folder of VTI timesteps and spits out PNGs you can hand to ffmpeg.
+☄️ **[asteroid-impact-visualization](https://github.com/DonBeleren/asteroid-impact-visualization)** — VTK rendering of LANL's deepwater asteroid impact ensemble. Five PyQt5 viewers for tuning transfer functions on each scalar (water, asteroid, temperature, pressure, isosurface), plus a batch renderer that walks a folder of VTI timesteps and spits out PNGs you can hand to ffmpeg.
 
 ## stack
 
