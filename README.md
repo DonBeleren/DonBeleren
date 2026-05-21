@@ -10,6 +10,8 @@ These days the graphics work happens on my own time 🌙. That's most of what's 
 
 ## projects
 
+🔥 **[Hearth](https://github.com/DonBeleren/hearth)** — real-time 3D engine for iOS and macOS. C++ renderer talking to Metal through `metal-cpp`, SwiftUI editor shell, hand-rolled ECS with a priority-ordered scheduler. Forward+ clustered shading on a 16×9×24 grid, split-sum IBL from an HDR cubemap probe, hybrid ray-traced shadows, SSR, volumetric fog and god rays, ACES tonemap. Per-material spectral F₀ so gold and copper land at the right Fresnel response.
+
 🏢 **[Edifice](https://github.com/DonBeleren/edifice)** — write a script, get a 3D building. C++ / Qt 5 / OpenGL 4.1, with a Flex/Bison grammar feeding a shape-grammar engine on top of a live `Building` model, plus an in-app editor that re-parses as you type and a procedural texture catalog. The auto-loaded `skyline.txt` builds two rows of five mixed-style towers along a street; `default.txt` is the original showpiece, a multi-tier setback tower at roughly 70k surface operations.
 
 🪟 **[split-grammar-2d](https://github.com/DonBeleren/split-grammar-2d)** — the 2D version that came before Edifice. Hand-rolled recursive descent parser, fixed 3×3 grid, ~1,600 lines. Edifice is the better one. This is where I figured out what I actually wanted.
